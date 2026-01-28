@@ -1,0 +1,18 @@
+# Jekyll 配置文件
+title: 我的博客
+description: 使用 Jekyll 构建的个人博客
+baseurl: ""
+url: "https://brianxiadong.github.io"
+
+# 构建设置
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
